@@ -1,0 +1,21 @@
+{
+  "name": "basic-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.5.1",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "with-env": "dotenv -e .env --"
+  },
+  "dependencies": {
+    "@anvia/core": "^1.5.0",
+    "@anvia/openai": "^1.1.5",
+    "dotenv-cli": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
