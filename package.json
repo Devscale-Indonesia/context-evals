@@ -5,6 +5,7 @@
   "type": "module",
   "packageManager": "pnpm@12.5.1",
   "scripts": {
+    "start": "pnpm with-env tsx src/index.ts",
     "typecheck": "tsc --noEmit",
     "with-env": "dotenv -e .env --"
   },
